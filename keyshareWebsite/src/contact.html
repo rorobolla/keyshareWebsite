@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Tags Always -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Hospitality and Travel | PassiveBolt</title>
+
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content">
+
+    <!-- Contact Form -->
+    <div class="overflow-hidden">
+      <div class="container content-space-2 content-space-t-lg-4 content-space-b-lg-2">
+        <div class="row">
+          <div class="col-lg-6 mb-10 mb-lg-0">
+            <div class="pe-lg-10">
+              <div class="mb-5">
+                <h3>Our office</h3>
+              </div>
+
+              <div class="mb-5">
+                <img class="img-fluid" src="/assets/img/passivebolt-offices.jpg" alt="PassiveBolt Offices">
+              </div>
+
+              <!-- Info -->
+              <address>
+                <span class="d-block fs-3 fw-bold text-dark mb-2">USA:</span>
+                2723 S State St<br>
+                Suite 150<br>
+                Ann Arbor, MI 48104<br>
+              </address>
+              <!-- End Info -->
+            </div>
+          </div>
+          <!-- End Col -->
+
+          <div class="col-lg-6">
+            <div class="position-relative">
+              <!-- Card -->
+              <div class="card card-lg">
+                <!-- Card Body -->
+                <div class="card-body">
+                  <h4 class="mb-4">Contact Us</h4>
+
+                  <!-- Error Notification -->
+                  <?php if((!empty($validator->_error_array)) || ($captcha_error != 0) ) : ?>
+                    <div class="mb-5 text-center form-error">
+                      There were errors in the form<br>
+                      see below
+                    </div>
+                  <?php  endif ?>	
+
+                  <form method="post">
+                    <div class="row">
+                      <div class="col-sm-6 mb-4 mb-sm-0">
+                        <!-- Form -->
+                        <div class="mb-4">
+                          <label class="form-label" for="FirstName">First name <span>*</span></label>            
+                          <input type="text" class="form-control" name="FirstName" id="FirstName" placeholder="" value="<?php echo $validator->set_value('FirstName'); ?>">
+                          <?php echo $validator->error('FirstName'); ?>
+                        </div>
+                        <!-- End Form -->
+                      </div>
+                      <!-- End Col -->
+
+                      <div class="col-sm-6">
+                        <!-- Form -->
+                        <div class="mb-4">
+                          <label class="form-label" for="LastName">Last name <span>*</span></label>
+                          <input type="text" class="form-control" name="LastName" id="LastName" placeholder="" value="<?php echo $validator->set_value('LastName'); ?>">
+                          <?php echo $validator->error('LastName'); ?>
+                        </div>
+                        <!-- End Form -->
+                      </div>
+                      <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+
+                    <!-- Form -->
+                    <div class="mb-4">
+                      <label class="form-label" for="Company">Company <span>*</span></label>
+                      <input type="text" class="form-control" name="Company" id="Company" placeholder="" value="<?php echo $validator->set_value('Company'); ?>">
+                      <?php echo $validator->error('Company'); ?>
+                    </div>
+                    <!-- End Form -->
+
+                    <!-- Form -->
+                    <div class="mb-4">
+                      <label class="form-label" for="CompanyWebsite">Company website <span>*</span></label>
+                      <input type="text" class="form-control" name="CompanyWebsite" id="CompanyWebsite" placeholder="" value="<?php echo $validator->set_value('CompanyWebsite'); ?>">
+                      <?php echo $validator->error('CompanyWebsite'); ?>
+                    </div>
+                    <!-- End Form -->
+
+                    <!-- Form -->
+                    <div class="mb-4">
+                      <label class="form-label" for="WorkEmail">Work email <span>*</span></label>
+                      <input type="text" class="form-control" name="WorkEmail" id="WorkEmail" placeholder="" value="<?php echo $validator->set_value('WorkEmail'); ?>">
+                      <?php echo $validator->error('WorkEmail'); ?>
+                    </div>
+                    <!-- End Form -->
+
+                    <div class="mb-4">
+                      <label class="form-label" for="Phone">Phone</label>
+                      <input type="text" class="form-control" name="Phone" id="WorkEmail" placeholder="" value="<?php echo $validator->set_value('Phone'); ?>">
+                      <?php echo $validator->error('Phone'); ?>
+                    </div>
+                    <!-- End Form -->
+
+                    <!-- Form -->
+                    <div class="mb-4">
+                      <label class="form-label" for="Message">Message <span>*</span></label>
+                      <textarea class="form-control" name="Message" id="Message" placeholder="" rows="4"><?php echo $validator->set_value('Message'); ?></textarea>
+                      <?php echo $validator->error('Message'); ?>
+                    </div>
+                    
+                    <!-- Captcha -->
+                    <div id="captcha-group" class="mb-4 captcha">
+                      <input type="text" name="captcha" id="captcha" class="form-control captcha" placeholder="ARE YOU HUMAN?   ENTER 5 + 3" >
+                    </div>
+
+                    <div class="g-recaptcha mt-4" data-sitekey="6Le11aYiAAAAAG_0-hXHRRh3RryJyywtOVY1dYVi"></div>	
+
+                    <!-- Error Notification -->
+                    <?php if(isset($recaptcha_status) && !empty($recaptcha_status)) : ?>
+                    <span class="field-error"><?php echo $recaptcha_status ?></span>
+                    <?php  endif ?>	
+
+                    <!-- End Form -->
+
+                    <div class="d-grid mt-4">
+                      <button type="submit" name="submit" class="btn btn-primary btn-lg">Send inquiry</button>
+                    </div>
+                  </form>
+                </div>
+                <!-- End Card Body -->
+              </div>
+              <!-- End Card -->
+
+              <!-- SVG Shape -->
+              <figure class="position-absolute bottom-0 end-0 zi-n1 d-none d-md-block mb-n10" style="width: 15rem; margin-right: -8rem;">
+                <img class="img-fluid" src="/assets/svg/illustrations/grid-grey.svg" alt="Image Description">
+              </figure>
+              <!-- End SVG Shape -->
+
+              <!-- SVG Shape -->
+              <figure class="position-absolute bottom-0 end-0 d-none d-md-block me-n5 mb-n5" style="width: 10rem;">
+                <img class="img-fluid" src="/assets/svg/illustrations/plane.svg" alt="Image Description">
+              </figure>
+              <!-- End SVG Shape -->
+            </div>
+          </div>
+          <!-- End Col -->
+        </div>
+        <!-- End Row -->
+      </div>
+    </div>
+    <!-- End Contact Form -->
+
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <script src='https://www.google.com/recaptcha/api.js'></script>

@@ -595,9 +595,17 @@ progress {
   max-width: 100%;
   height: auto;
 }
+.img-fluid1 {
+  max-width: 80%;
+  height: auto;
+  object-fit: cover;
+}
+
 .img-non {
-  max-width: 100%;
-  height: 100%;
+  max-width: 600px;
+  height: 600px;
+  object-fit: cover;
+  
 }
 
 .img-thumbnail {
@@ -7389,7 +7397,9 @@ textarea.form-control-lg {
 .w-50 {
   width: 50% !important;
 }
-
+.w-60 {
+  width: 60% !important;
+}
 .w-75 {
   width: 75% !important;
 }

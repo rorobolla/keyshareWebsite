@@ -7393,6 +7393,9 @@ textarea.form-control-lg {
 .w-25 {
   width: 25% !important;
 }
+.w-45 {
+  width: 45% !important;
+}
 
 .w-50 {
   width: 50% !important;
@@ -8002,6 +8005,9 @@ textarea.form-control-lg {
 
 .ms-10 {
   margin-left: 4.5rem !important;
+}
+.ms-25 {
+  margin-left: 10rem !important;
 }
 
 .ms-auto {

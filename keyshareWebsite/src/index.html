@@ -7,15 +7,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="theme.min.css">
-    <link rel="stylesheet" href="snippets.min.css">
+    <!-- <link rel="stylesheet" href="snippets.min.css">
     <link rel="stylesheet" href="foundation-2.min.css">
     <link rel="stylesheet" href="docs-2.css">
     <link rel="stylesheet" href="docs.min.css">
+    <link rel="stylesheet" href="theme.min.css">
     <link rel="stylesheet" href="../assets/css/docs.css">    
-    <link rel="stylesheet" href="../assets/css/snippets.css">
+    <link rel="stylesheet" href="../assets/css/snippets.css"> -->
     <link rel="stylesheet" href="../assets/css/theme.css">
-    <script src="../assets/js/hs.core.js" ></script>
+    <!-- <script src="../assets/js/hs.core.js" ></script>
+    <script src="../assets/js/hs.list.js" ></script>
+    <script src="../assets/js/theme.min.js" ></script> -->
+    <script src="../assets/js/theme-custom.js" ></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!-- <link rel="stylesheet" href="layout-styles.css"> -->
     <title>KeyShare</title>
@@ -38,7 +43,7 @@
         </div>
   
         <div class="d-grid d-sm-flex gap-3 mb-5">
-          <a class="btn btn-primary" href="mailto:contact@passivebolt.com">Request demo</a>
+          <a class="btn btn-primary" href="mailto:sales@keyshare.id">Request demo</a>
           <a class="btn btn-ghost-dark btn-pointer" href="#learnmore">Learn More</a>
         </div>
       </div>
@@ -47,36 +52,36 @@
       <div class="col-lg-6">
         <div class="position-relative">
           <div class="position-relative">
-            <img class="img-non" src="../assets/img/hotel2.png" alt="Image Description">
+            <img class="img-non" src="../assets/img/hotel2.jpeg" alt="Image Description">
           </div>
   
           <!-- Media -->
-          <div class="d-inline-block position-absolute top-0 start-0 bg-white w-100 rounded-pill shadow-sm p-2 mt-5 ms-n5" style="max-width: 12rem;">
+          <div class="d-inline-block position-absolute top-0 start-0 bg-white w-100 rounded-pill shadow-sm p-2 mt-5 ms-n5" style="max-width: 16rem;">
             <div class="d-flex align-items-center">
               <div class="flex-shrink-0">
                 <span class="avatar avatar-sm avatar-circle">
-                  <img class="avatar-img" src="../assets/img/160x160/img3.jpg" alt="Image Description">
+                  <img class="avatar-img" src="../assets/img/160x160/img5.jpg" alt="Image Description">
                 </span>
               </div>
               <div class="flex-grow-1 ms-2">
                 <div class="fs-5 fw-bold mb-0">Julian</div>
-                <span class="d-block fs-6">Yes just tap here.</span>
+                <span class="d-block fs-6">Can I use my Digital ID?</span>
               </div>
             </div>
           </div>
           <!-- End Media -->
   
           <!-- Media -->
-          <div class="d-inline-block position-absolute bottom-0 start-0 bg-warning w-100 rounded-pill shadow-sm p-2 mb-10 ms-n10" style="max-width: 16rem;">
+          <div class="d-inline-block position-absolute bottom-0 start-0 bg-white w-100 rounded-pill shadow-sm p-2 mb-10 ms-n10" style="max-width: 12rem;">
             <div class="d-flex align-items-center">
               <div class="flex-shrink-0">
                 <span class="avatar avatar-sm avatar-circle">
-                  <img class="avatar-img" src="../assets/img/160x160/img8.jpg" alt="Image Description">
+                  <img class="avatar-img" src="../assets/img/160x160/img11.png" alt="Image Description">
                 </span>
               </div>
               <div class="flex-grow-1 ms-2">
                 <div class="fs-5 fw-bold text-dark mb-0">Michaela</div>
-                <span class="d-block fs-6 text-dark">Can I use my Digital ID?</span>
+                <span class="d-block fs-6 text-dark">Yes just tap here.</span>
               </div>
             </div>
           </div>
@@ -131,8 +136,8 @@
           <div class="mb-3">
             <i class="bi-shield-lock fs-1 "></i>
           </div>
-          <h5>Access Control</h5>
-          <p>Implement proof-of-identity based physical access control systems using KeyShare's wallet core SDK, issuance modules, and verifier libraries for locks and access control hardware.</p>
+          <h5>Physical Access Control</h5>
+          <p>Implement proof-of-identity based physical access control systems using KeyShare's wallet core SDK, issuance modules, and verifier libraries for locks & access hardware.</p>
         </div>
         <!-- End Icon Block -->
       </div>
@@ -146,14 +151,13 @@
     <div class="container content-space-1">
       <!-- Heading -->
       <div class="w-lg-65 text-center mx-lg-auto mb-5 mb-sm-7 mb-lg-10">
-        
         <h4>KeyShare's modular core components work together to create a seamless and secure digital identity ecosystem:</h4>
       </div>
       <!-- End Heading -->
   
       <div class="position-relative content-space-1">
-        <div class="row justify-content-lg-between align-items-md-center">
-          <div class="col-md-6 col-lg-5 order-md-2 mb-7 mb-md-0">
+        <div class="row align-items-md-center">
+          <div class="col-lg-5 order-md-2 mb-7 mb-md-0">
             <div class="mb-5">
               <h3>Fully customizable components to match your unique needs</h3>
             </div>
@@ -209,26 +213,20 @@
           <div class="col-md-6">
             <div class="position-relative">
               <!-- Tab Content -->
-              <div class="tab-content" id="featuresTabContent">
+              <div class="tab-content" id="imagesTab">
                 <div class="tab-pane fade show active" id="featuresOne" role="tabpanel" aria-labelledby="featuresOne-tab">
-                  <img class="img-fluid shadow rounded-3" src="../assets/img/mockups/img7.png" alt="Image Description">
+                  <img class="img-fluid shadow rounded-3" src="../assets/img/issuer-service.png" alt="Issuer Service">
                 </div>
   
                 <div class="tab-pane fade" id="featuresTwo" role="tabpanel" aria-labelledby="featuresTwo-tab">
-                  <img class="img-fluid shadow rounded-3" src="../assets/img/mockups/img8.png" alt="Image Description">
+                  <img class="img-fluid shadow rounded-3 w-50 offset-2" src="../assets/img/img_iphone14pro.png" alt="Holder Service">
                 </div>
   
                 <div class="tab-pane fade" id="featuresThree" role="tabpanel" aria-labelledby="featuresThree-tab">
-                  <img class="img-fluid shadow rounded-3" src="../assets/img/mockups/img4.png" alt="Image Description">
+                  <img class="img-fluid shadow rounded-3 w-50 offset-2" src="../assets/img/verifier_service.png" alt="Image Description">
                 </div>
               </div>
               <!-- End Tab Content -->
-  
-              <!-- SVG Shape -->
-              <figure class="position-absolute top-0 end-0 mt-n5 me-n10" style="width: 4rem;">
-                <img class="img-fluid" src="../assets/svg/components/pointer-up.svg" alt="Image Description">
-              </figure>
-              <!-- End SVG Shape -->
             </div>
           </div>
           <!-- End Col -->
@@ -347,25 +345,25 @@
   </div>
   <!-- End Features -->
 <!-- Features -->
-<div class="bg-dark">
+<div class="bg-soft-light">
   <div class="overflow-hidden">
       <div class="container">
-        <div class="bg-dark rounded-3 p-4 p-sm-8 p-lg-10 mx-md-n7 mx-lg-n10">
+        <div class="bg-dark rounded-5 p-2 p-sm-8 p-lg-10 py-lg-6 mx-md-n7 mx-lg-n10">
           <div class="row align-items-lg-center">
             <div class="col-lg-7 order-lg-2 mb-10 mb-lg-0">
               <div class="position-relative">
-                <div class="w-75 ms-auto">
+                <div class="w-50 ms-auto">
                   <img class="img-fluid rounded-3" src="../assets/img/hotel_lock.jpg" alt="Image Description">
                 </div>
     
-                <div class="position-absolute bottom-0 start-0 mb-10 ms-5">
-                  <img class="img-fluid1 w-50 shadow rounded-3" src="../assets/img/hotel3.png" alt="Image Description">
+                <div class="position-absolute bottom-0 start-0 mb-10 ms-25">
+                  <img class="img-fluid1 w-45 shadow rounded-3" src="../assets/img/hotel2.jpeg" alt="Image Description">
                 </div>
     
-                <!-- SVG Shape -->
+                <!-- SVG Shape
                 <figure class="position-absolute top-0 end-0 mt-n7 me-n7" style="width: 10rem;">
-                  <img class="img-fluid" src="../assets/svg/components/dots-warning.svg" alt="Image Description">
-                </figure>
+                  <img class="img-fluid" src="../assets/svg/components/dots.svg" alt="Image Description">
+                </figure> -->
                 <!-- End SVG Shape -->
               </div>
             </div>
@@ -374,8 +372,8 @@
             <div class="col-lg-5">
               <div class="pe-lg-5">
                 <div class="mb-5">
-                  <span class="badge bg-soft-light text-white text-wrap mb-3"><strong>For Hospitality</strong></span>
-                  <h2 class="text-white">KeyShare Platform in Action</h2>
+                  <span class="badge bg-white text-dark text-wrap mb-3"><strong>For Hospitality</strong></span>
+                  <h2 class="text-white">KeyShare in Action</h2>
                   <p class="text-white-70">Explore how KeyShare is being used to solve real-world challenges in <span class="fw-bold">Hospitality:</span></p>
                 </div>
     
@@ -387,13 +385,13 @@
                 </ul>
                 <!-- End List Checked -->
     
-                <a class="btn btn-primary btn-pointer" href="#">Learn more</a>
+                <a class="btn btn-primary rounded-2 btn-pointer" href="mailto:sales@keyshare.id">Contact Sales</a>
               </div>
             </div>
             <!-- End Col -->
           </div>
           <!-- End Row -->
-          <div class="row mt-10">
+          <div class="row mt-6">
             <div class="col-sm-6 col-lg mb-5 mb-lg-0">
               <!-- Icon Block -->
               <div class="text-center">
@@ -402,8 +400,8 @@
                  <!-- <i class="bi bi-globe fs-6 text-white"></i> -->
                 </div>
                 <h5 class="text-white">Universal ID Acceptance</h5>
-                <p class="text-white-70">Hotels can confidently accept and verify digital IDs from any government or authorized issuer, regardless of format or standard.</p>
-                <a class="link link-pointer" href="#">Learn more</a>
+                <p class="text-white-70">Accept and verify digital IDs from any issuing government or authority, regardless of format or standard.</p>
+                <!-- <a class="link link-pointer" href="#">Learn more</a> -->
               </div>
               <!-- End Icon Block -->
             </div>
@@ -417,14 +415,14 @@
                 </div>
       
                 <h5 class="text-white">Seamless Check-in</h5>
-                <p class="text-white-70">Guests can check in using their digital ID, eliminating the need for physical documents or manual data entry.</p>
-                <a class="link link-pointer" href="#">Learn more</a>
+                <p class="text-white-70">Guests can check in with their digital ID, eliminating the need for physical documents or manual data entry.</p>
+                <!-- <a class="link link-pointer" href="#">Learn more</a> -->
               </div>
               <!-- End Icon Block -->
             </div>
             <!-- End Col -->
       
-            <div class="col-sm-6 col-lg mb-5 mb-sm-0">
+            <div class="col-sm-6 col-lg mb-5 mb-lg-0">
               <!-- Icon Block -->
               <div class="text-center">
                 <div class="mb-3">
@@ -433,13 +431,13 @@
       
                 <h5 class="text-white">Personalized Services</h5>
                 <p class="text-white-70">Hotels can tailor services and offers based on guest preferences stored in their Traveler Profiles.</p><br>
-                <a class="link link-pointer" href="#">Learn more</a>
+                <!-- <a class="link link-pointer" href="#">Learn more</a> -->
               </div>
               <!-- End Icon Block -->
             </div>
             <!-- End Col -->
       
-            <div class="col-sm-6 col-lg">
+            <div class="col-sm-6 col-lg mb-5 mb-lg-0">
               <!-- Icon Block -->
               <div class="text-center">
                 <div class="mb-3">
@@ -447,8 +445,8 @@
                 </div>
       
                 <h5 class="text-white">Keyless Entry</h5>
-                <p class="text-white-70">Guests can access their rooms and other areas using their digital ID.</p> <br> <br>
-                <a class="link link-pointer" href="#">Learn more</a>
+                <p class="text-white-70">Guests can access their rooms and other spaces with proof-of-identity using their digital IDs.</p> <br> <br>
+                <!-- <a class="link link-pointer" href="#">Learn more</a> -->
               </div>
               <!-- End Icon Block -->
             </div>
@@ -461,15 +459,20 @@
 </div>
   <!-- End Features -->
 <!-- Icon Block -->
+<div class="bg-white">
 <div class="container content-space-1">
+  <div class="mt-10 mb-8">
     <div class="row">
       <div class="col-md-6 mb-7 mb-lg-0">
         <div class="w-md-75 mb-5">
+          <div>
+            <span class="badge bg-dark text-white text-wrap mb-3"><strong>For Governments</strong></span>
+          </div>
           <h2>Governments and Institutions</h2>
           <p>Explore how KeyShare is being used to solve real-world challenges for governments and institutions</p>
         </div>
   
-        <a class="link link-pointer" href="#">Contact sales to learn more</a>
+        <a class="link link-pointer" href="mailto:access@keyshare.id">Contact sales to learn more</a>
       </div>
       <!-- End Col -->
   
@@ -508,11 +511,15 @@
     </div>
     <!-- End Row -->
   </div>
+  </div>
+</div> 
   <!-- End Icon Block -->
 <!-- Features -->
-<div class="bg-dark">
-    <div class="container content-space-1">
-      <div class="row justify-content-center justify-content-lg-between align-items-lg-center mb-10">
+<div class="bg-soft-light">
+  <div class="overflow-hidden">
+      <div class="container">
+        <div class="bg-dark rounded-5 p-2 p-sm-8 mx-md-n7 mx-lg-n10">
+      <div class="row justify-content-center justify-content-lg-between align-items-lg-center">
         <div class="col-7 col-lg-5 mb-7 mb-lg-0">
           <img class="img-fluid rounded-3" src="../assets/img/access_control.png" alt="Keyshare Desktop screen of Access Control">
         </div>
@@ -520,9 +527,9 @@
   
         <div class="col-lg-6">
           <div class="mb-5">
-            <span class="badge bg-soft-light text-white text-wrap mb-3"><strong>For Access Control</strong></span>
+            <span class="badge bg-white text-dark text-wrap mb-3"><strong>For Physical Access Control</strong></span>
             <h2 class="text-white">Empowering Proof-of-Identity Based Access Control</h2>
-            <p class="text-white-70">Explore how KeyShare is being used to solve real-world challenges in the Access Control Industry</p>
+            <p class="text-white-70">Explore how KeyShare is being used to solve real-world challenges in the Physical Access Control Industry</p>
           </div>
   
           <h6 class="text-white">What you'll get:</h6>
@@ -532,25 +539,25 @@
             <li class="list-checked-item text-white-70"><strong>Secure Building Access: </strong>Grant access to buildings and facilities based on verified digital identities.</li>
             <li class="list-checked-item text-white-70"><strong>Employee ID: </strong>Issue digital employee IDs for secure access and authentication.</li>
             <li class="list-checked-item text-white-70"><strong>Ticketing: </strong>Issue and verify digital tickets to verified identities for events or attractions, preventing fraud and improving efficiency.</li>
-            <li><a class="link link-pointer" href="#"> &emsp; &emsp; &emsp; &nbsp; Learn more</a></li>
+            <!-- <li><a class="link link-pointer" href="#"> &emsp; &emsp; &emsp; &nbsp; Learn more</a></li> -->
           </ul>
           <!-- End List Checked -->
         </div>
         <!-- End Col -->
       </div>
       <!-- End Row -->
-  
-
+      </div>
+      </div>
     </div>
   </div>
   <!-- End Features -->
 <!-- Card Grid -->
 <div class="container content-space-t-1">
-    <div class="text-center mb-7">
+    <div class="text-center mt-8 mb-7">
       <h1>Explore the Possibilites of KeyShare</h1>
     </div>
   
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
       <div class="col mb-4 mb-lg-0">
         <!-- Card -->
         <div class="card card-lg text-center h-100">
@@ -569,7 +576,7 @@
             </div>
   
             <div class="d-grid mb-3">
-              <a class="btn btn-primary" href="mailto:sales@keyshare.ai"><i class="bi-envelope-open me-2"></i>sales@keyshare.ai</a>
+              <a class="btn btn-primary" href="mailto:travel@keyshare.id"><i class="bi-envelope-open me-2"></i>travel@keyshare.id</a>
             </div>
           </div>
         </div>
@@ -595,14 +602,37 @@
             </div>
   
             <div class="d-grid mb-3">
-              <a class="btn btn-primary" href="mailto:contact@keyshare.ai"><i class="bi-envelope-open me-2"></i> contact@keyshare.ai</a>
+              <a class="btn btn-primary" href="mailto:institutions@keyshare.id"><i class="bi-envelope-open me-2"></i>institutions@keyshare.id</a>
             </div>
             </div>
         </div>
         <!-- End Card -->
       </div>
       <!-- End Col -->
+      <div class="col mb-4 mb-lg-0">
+        <!-- Card -->
+        <div class="card card-lg text-center h-100">
+          <div class="card-body">
+            <div class="mb-3">
+              <i class="bi-shield-lock fs-1 text-dark"></i>
+            </div>
   
+            <div class="mb-8">
+              <h4>Physical Access Control</h4>
+            </div>
+  
+            <div class="mb-5">
+              <span class="d-block">Contact us</span>
+              <span class="d-block">to discuss your needs.</span>
+            </div>
+  
+            <div class="d-grid mb-3">
+              <a class="btn btn-primary" href="mailto:access@keyshare.id"><i class="bi-envelope-open me-2"></i> access@keyshare.id</a>
+            </div>
+            </div>
+        </div>
+        <!-- End Card -->
+      </div>
 
       <!-- End Col -->
     </div>
@@ -624,11 +654,11 @@
 <!-- CTA -->
 <div class="container content-space-1">
     <div class="w-lg-75 text-center mx-lg-auto">
-      <figure class="mb-7">
+      <figure class="mb-7 mt-8">
         <img class="img-fluid" src="../assets/svg/illustrations/plane.svg" alt="Image Description" style="width: 10rem;">
       </figure>
       <h2 class="mb-7">Learn More About Digital Identity to understand the benefits and potential of this technology</h2>
-      <a class="link link-pointer" href="mailto:contact@passivebolt.com">View our Digital Identity Technology</a>
+      <a class="link link-pointer" href="mailto:contact@keyshare.id">View our Digital Identity Technology</a>
     </div>
   </div>
   <!-- End CTA -->
@@ -644,7 +674,7 @@
     
       <div class="col-md-auto">
         <div class="d-grid d-sm-flex gap-3">
-          <a class="btn btn-primary" href="mailto:sales@keyshare.ai">Contact Sales</a>
+          <a class="btn btn-primary" href="mailto:sales@keyshare.id">Contact Sales</a>
         </div>
       </div>
       <!-- End Col -->
